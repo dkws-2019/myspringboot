@@ -1,0 +1,3 @@
+com.liuchao.myspringboot.pay.payimpl.WxPayServiceImpl
+com.liuchao.myspringboot.pay.payimpl.ZfbPayServiceImpl
+com.liuchao.myspringboot.pay.payimpl.YlPayServiceImpl

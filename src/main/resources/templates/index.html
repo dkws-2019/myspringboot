@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script th:src="@{js/jquery-1.6.2.min.js}"></script>
+<body>
+
+这里面是首页测试
+用户id: <span th:text="${user.id}"></span> </br>
+用户名：<span th:text="${user.name}"></span>
+<button value="按扭" onclick="test">按扭</button>
+</body>
+<script>
+    function test(){
+        alert(11111);
+    }
+</script>
+</html>
